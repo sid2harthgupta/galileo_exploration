@@ -305,7 +305,7 @@ Hash for foo(x): 69a38c6b116089aeed7d047a2add4e25
 
 ##### Deeper dive
 
-The `instruction`s are of the type and provide a lot of useful details:
+The `instruction`s provide a lot of useful details:
 ```
 Instruction(opname='RESUME', opcode=151, arg=0, argval=0, argrepr='', offset=0, starts_line=4, is_jump_target=False, positions=Positions(lineno=4, end_lineno=4, col_offset=0, end_col_offset=0))
 Instruction(opname='LOAD_GLOBAL', opcode=116, arg=1, argval='helper', argrepr='NULL + helper', offset=2, starts_line=6, is_jump_target=False, positions=Positions(lineno=6, end_lineno=6, col_offset=11, end_col_offset=17))
